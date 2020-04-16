@@ -14,8 +14,6 @@ body {
    letter-spacing: 3px;
 }
 
-
-
 .container {
    width: 85%;
    margin: auto;
@@ -26,7 +24,7 @@ body {
 header {
    background: rgb(44,62,80);
    color: aliceblue;
-   padding: 15px;
+   padding: 10px 0;
 }
 
 .container .logo {
@@ -61,4 +59,50 @@ header li {
 header li:hover {
    background: rgb(27,181,152);
    color: aliceblue;
+}
+
+.name .container {
+   text-align: center;
+}
+
+.name .container .pic img {
+   width: 260px;
+   padding: 15px;
+   margin: 40px 10px 5px 10px;
+   background: inherit;
+   border: 10px solid black;
+   border-radius: 50%;
+}
+
+.name .container .ngaran {
+   margin: 0;
+   padding: 0;
+   font-size: 70px;
+   color: aliceblue;
+   font-weight: bolder;
+}
+
+.name .container .profession {
+   color: white;
+}
+
+/* line */
+.line {
+   display: inline;
+}
+
+.line .left {
+   float: left;
+   margin-left: 350px;
+}
+
+.line .right {
+   float: right;
+   margin-right: 350px;
+}
+
+.line .left, .line .right {
+   width: 200px;
+   height: 0px;
+   border: solid white;
 }
