@@ -14,6 +14,7 @@ body {
    letter-spacing: 3px;
 }
 
+
 .container {
    width: 85%;
    margin: auto;
@@ -25,6 +26,9 @@ header {
    background: rgb(44,62,80);
    color: aliceblue;
    padding: 10px 0;
+   position: fixed;
+   top: 0;
+   width: 100%;
 }
 
 .container .logo {
@@ -61,11 +65,12 @@ header li:hover {
    color: aliceblue;
 }
 
-.name .container {
+#front .container {
    text-align: center;
+   margin-top: 90px;
 }
 
-.name .container .pic img {
+#front .container .pic img {
    width: 240px;
    height: 240px;
    padding: 3px;
@@ -75,24 +80,21 @@ header li:hover {
    border-radius: 50%;
 }
 
-.name .container .ngaran {
+#front .container .ngaran {
    margin: 0;
    padding: 0;
    font-size: 70px;
    color: aliceblue;
    font-weight: bolder;
    cursor: pointer;
+   margin-bottom: 10px;
 }
 
-.name .container .profession {
+#front .container .profession {
    color: white;
+   margin-bottom: 85px;
 }
 
-.line .left {
-   width: 550px;
-   margin: auto;
-   height: 3px;
-}
 
 .web, .net {
    border-radius: 6px;
@@ -104,6 +106,72 @@ header li:hover {
    font-weight: bolder;
    cursor: default;
    transition-delay: .1s;
+}
+
+/* Portfolio */
+#porfolio {
+   background: white;
+}
+
+#portfolio {
+   background-color: white;
+}
+
+#portfolio .container {
+   text-align: center;
+}
+
+#portfolio .container h1 {
+   margin-top: 70px;
+   margin-bottom: 40px;
+   font-size: 55px;
+}
+
+#portfolio .container .grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+}
+
+#portfolio .container .grid .box {
+   margin: 0px 5px 10px 5px;
+}
+
+#portfolio .container .grid .box img {
+   width: 190px;
+   height: 190px;
+   margin: 25px;
+   border: 2px solid black;
+   border-radius: 50%;
+   background-color: white;
+}
+
+#portfolio .container .grid .box .box-1 {
+   background-color: rgb(27, 104, 104);
+   border-top-left-radius: 10px;
+}
+
+#portfolio .container .grid .box .box-2 {
+   background-color: rgb(22, 20, 92);
+}
+
+#portfolio .container .grid .box .box-3 {
+   background-color: rgb(104, 27, 78);
+   border-top-right-radius: 10px;
+}
+
+#portfolio .container .grid .box .box-4 {
+   background-color: rgb(112, 23, 23);
+   border-bottom-left-radius: 10px;
+}
+
+#portfolio .container .grid .box .box-5 {
+   background-color: rgb(18, 80, 18);
+}
+
+#portfolio .container .grid .box .box-6 {
+   background-color: rgb(168, 70, 116);
+   border-bottom-right-radius: 10px;
 }
 
 
