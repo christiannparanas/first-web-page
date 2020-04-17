@@ -61,6 +61,7 @@ header li {
 }
 
 header li:hover {
+   transition-delay: .1s;
    background: rgb(27,181,152);
    color: aliceblue;
 }
@@ -102,10 +103,10 @@ header li:hover {
 }
 
 .web:hover, .net:hover {
+   transition-delay: .1s;
    background: pink;
    font-weight: bolder;
    cursor: default;
-   transition-delay: .1s;
 }
 
 /* Portfolio */
@@ -136,7 +137,7 @@ header li:hover {
 
 #portfolio .container .grid .box {
    margin: 2px 2px;
-   padding: 3px;
+   padding: 5px;
    border-radius: 9px;
 }
 
@@ -177,10 +178,12 @@ header li:hover {
 }
 
 #portfolio .container .grid .box:hover {
+   transition-delay: .1s;
    background-color: darkslategray;
 }
 
 #portfolio .container .grid .box img:hover {
+   transition-delay: .1s;
    background-color: aqua;
 }
 
@@ -212,7 +215,7 @@ header li:hover {
 
 .sub-button {
    font-size: 20px;
-   padding: 20px 25px;
+   padding: 15px 25px;
    background-color: transparent;
    color: aliceblue;
    border: 2px solid white;
@@ -221,10 +224,90 @@ header li:hover {
 }
 
 .sub-button:hover {
-   background-color: white;
-   color: black;
+   transition-delay: .1s;
+   background-color:rgb(165, 23, 23);
+   color: white;
+   border-radius: 7px;
+   font-weight: 500;
 }
 
 .about-1 {
    grid-column-start: 2;
 }
+
+/* contact */
+#contact {
+   text-align: center;
+   background-color: white;
+   padding-bottom: 30px;
+}
+
+#contact .container h1 {
+   margin: 30px 0;
+   font-size: 55px;
+   word-spacing: 0.1px;
+}
+
+#contact .container .form label {
+   font-size: 20px;
+   margin-left: -395px;
+   font-weight: bold;
+}
+
+.message {
+   margin-right: -40px;
+}
+
+#contact .container .form input {
+   display: block;
+   width: 450px;
+   margin: auto;
+   font-size: 20px;
+   padding: 10px;
+   margin-bottom: 10px;
+   outline: none;
+   border-radius: 3px;
+   border: 1px solid;
+}
+
+textarea {
+   margin-top: 5px;
+   border-radius: 3px;
+   border: 1px solid;
+   font-size: 20px;
+   padding: 10px;
+   outline: none;
+   margin-left: -1px;
+   resize: none;
+}
+
+.button-2 {
+   padding: 15px 25px;
+   margin: 15px;
+   font-size: 20px;
+   font-weight: 500;
+   border-radius: 6px;
+   outline: none;
+   background-color: rgb(27,181,152);
+   border: 1px;
+   color: aliceblue;
+   margin-right: 370px;
+}
+
+.button-2:hover {
+   transition-delay: .1s;
+   background-color: rgb(27, 99, 86);
+}
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
