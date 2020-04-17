@@ -74,7 +74,7 @@ header li:hover {
    width: 240px;
    height: 240px;
    padding: 3px;
-   margin: 40px 10px 5px 10px;
+   margin: 45px 10px 5px 10px;
    background: inherit;
    border: 10px solid black;
    border-radius: 50%;
@@ -92,7 +92,7 @@ header li:hover {
 
 #front .container .profession {
    color: white;
-   margin-bottom: 85px;
+   margin-bottom: 90px;
 }
 
 
@@ -122,56 +122,109 @@ header li:hover {
 }
 
 #portfolio .container h1 {
-   margin-top: 70px;
-   margin-bottom: 40px;
+   margin: 30px 0;
    font-size: 55px;
+   color: rgb(44,62,80);
 }
 
 #portfolio .container .grid {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   margin-bottom: 60px;
 }
 
 #portfolio .container .grid .box {
-   margin: 0px 5px 10px 5px;
+   margin: 2px 2px;
+   padding: 3px;
+   border-radius: 9px;
 }
 
 #portfolio .container .grid .box img {
-   width: 190px;
-   height: 190px;
-   margin: 25px;
-   border: 2px solid black;
+   width: 150px;
+   height: 150px;
+   margin: 15px;
    border-radius: 50%;
    background-color: white;
 }
 
 #portfolio .container .grid .box .box-1 {
-   background-color: rgb(27, 104, 104);
+   background-color: rgb(35, 156, 134);
    border-top-left-radius: 10px;
 }
 
 #portfolio .container .grid .box .box-2 {
-   background-color: rgb(22, 20, 92);
+   background-color: rgb(35, 156, 134);
 }
 
 #portfolio .container .grid .box .box-3 {
-   background-color: rgb(104, 27, 78);
+   background-color: rgb(35, 156, 134);
    border-top-right-radius: 10px;
 }
 
 #portfolio .container .grid .box .box-4 {
-   background-color: rgb(112, 23, 23);
+   background-color: rgb(35, 156, 134);
    border-bottom-left-radius: 10px;
 }
 
 #portfolio .container .grid .box .box-5 {
-   background-color: rgb(18, 80, 18);
+   background-color: rgb(35, 156, 134);
 }
 
 #portfolio .container .grid .box .box-6 {
-   background-color: rgb(168, 70, 116);
+   background-color: rgb(35, 156, 134);
    border-bottom-right-radius: 10px;
 }
 
+#portfolio .container .grid .box:hover {
+   background-color: darkslategray;
+}
 
+#portfolio .container .grid .box img:hover {
+   background-color: aqua;
+}
+
+/* about */
+#about {
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+#about .container h1 {
+   margin: 30px 0 20px 0;
+   font-size: 55px;
+   color: white;
+}
+
+#about .container .about-grid p {
+   color: aliceblue;
+   padding: 10px;
+   font-size: 20px;
+   text-align: left;
+   font-weight: bold;
+}
+
+.about-grid {
+   display: grid;
+   margin: 0 10px;
+   grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+
+.sub-button {
+   font-size: 20px;
+   padding: 20px 25px;
+   background-color: transparent;
+   color: aliceblue;
+   border: 2px solid white;
+   border-radius: 6px;
+   font-weight: 500;
+}
+
+.sub-button:hover {
+   background-color: white;
+   color: black;
+}
+
+.about-1 {
+   grid-column-start: 2;
+}
